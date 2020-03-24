@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea Clase 6</title>
+</head>
+<body>
+   
+    <form method="post" name="formulario" id="edades-integrantes-familia">
+        <label>Número de integrantes</label>
+        <input type="number" name="cantidad" placeholder="Ingresa la cantidad" id="cantidadFamiliares">
+        <label>Ingresar</label>
+        <button type="button" id="boton-ingresar">Ingresar cantidad</button>
+        <label>Empezar de nuevo</label>
+        <button id="boton-limpiar">Limpiar</button>
+
+        <div name="edades" id='labels-inputs'>
+
+
+        </div>
+        
+        <ul id="errores">
+        </ul>
+        
+        <button type="button" id="boton-calcular">Calcular</button>
+    </form>
+    
+    <p>
+        <em id="mayor"></em><br>
+        <em id="menor"></em><br>
+        <em id="promedio"></em>
+    </p>
+    
+    
+    <script type="text/javascript" src="tarea-clase-6.js"></script>
+    <script type="text/javascript" src="validacion1.js"></script>
+    <script type="text/javascript" src="pruebas1.js"></script>
+</body>
+</html>
