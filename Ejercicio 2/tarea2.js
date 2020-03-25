@@ -8,10 +8,10 @@ menor salario anual, salario anual promedio y salario mensual promedio.
 Punto bonus: si hay inputs vacíos, ignorarlos en el cálculo (no contarlos como 0).
 */
 
-anualMayor = 0;
-anualMenor = 0;
-promedioAnual = 0;
-promedioMensual = 0;
+let anualMayor = 0;
+let anualMenor = 0;
+const promedioAnual = 0;
+const promedioMensual = 0;
 
 
 const nodoForm = document.querySelector('form');
