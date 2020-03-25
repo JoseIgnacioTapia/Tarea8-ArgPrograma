@@ -60,5 +60,3 @@ function manejarErrores(errores) {
     });
     
 }
-
-
