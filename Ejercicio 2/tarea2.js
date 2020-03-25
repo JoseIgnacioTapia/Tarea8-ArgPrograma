@@ -31,14 +31,14 @@ function crearLabelInput() {
 }
 
 function quitarLabelInput() {
-    const labeles = document.querySelectorAll('label');
-    const inputes = document.querySelectorAll('input');
+    const todosLosLabels = document.querySelectorAll('label');
+    const todosLosInputs = document.querySelectorAll('input');
 
     if (labeles.length > 0 && inputes.length > 0) {
-        labeles[labeles.length - 1].remove();
-        inputes[inputes.length - 1].remove();
+        todosLosLabels[todosLosLabels.length - 1].remove();
+        todosLosInputs[todosLosInputs.length - 1].remove();
     } else {
-        ocultarBotonOculto();
+        ocultarBoton();
     }
 
 }
@@ -47,7 +47,7 @@ function mostrarBotonOculto() {
     document.querySelector('#calcular').className = '';
 }
 
-function ocultarBotonOculto() {
+function ocultarBoton() {
     document.querySelector('#calcular').className = 'oculto';
 }
 
