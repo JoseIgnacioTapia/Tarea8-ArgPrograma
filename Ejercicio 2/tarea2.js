@@ -18,10 +18,10 @@ const nodoForm = document.querySelector('form');
 
 function crearLabelInput() {
     
-    const nuevoLavel = document.createElement('label');
-    const textoLavel = document.createTextNode('Sueldo Anual');
-    nuevoLavel.appendChild(textoLavel);
-    nodoForm.appendChild(nuevoLavel);
+    const nuevoLabel = document.createElement('label');
+    const textoLabel = document.createTextNode('Sueldo Anual');
+    nuevoLabel.appendChild(textoLabel);
+    nodoForm.appendChild(nuevoLabel);
 
     const nuevoInput = document.createElement('input');
     nuevoInput.placeholder = 'Ingresar aquí';
